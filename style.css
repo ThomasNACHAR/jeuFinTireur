@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.gameInfos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    height: 400px;
+    width: 500px;
+    border: 1px solid #999;
+    cursor: crosshair;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("desert.jpg");
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#bandit1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    transition: 0.25s;
+    /* animation: animateTarget 10s infinite; */
+}
+
+#bandit2 {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    transition: 0.25s;
+    /* animation: animateTarget 10s infinite; */
+}
+
+#bandit3 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    transition: 0.25s;
+    /* animation: animateTarget 10s infinite; */
+}
+
+#bandit4 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    transition: 0.25s;
+    /* animation: animateTarget 10s infinite; */
+}
+
+#bandit5 {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    transition: 0.25s;
+    /* animation: animateTarget 10s infinite; */
+}
+
+#bandit6 {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    transition: 0.25s;
+    /* animation: animateTarget 10s infinite; */
+}
+
+#bandit7 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    transition: 0.25s;
+    /* animation: animateTarget 10s infinite; */
+}
+
+#gameover {
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    transition: 0.25s;
+    /* animation: animateTarget 10s infinite; */
+}
+
+button {
+    padding : 10px 20px;
+    margin-bottom: 20px;
+    background-color: red;
+    border: 0;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* @keyframes animateTarget {
+    to {
+        transform: translateY(-200px) rotate(90deg);
+    }
+} */
